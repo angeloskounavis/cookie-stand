@@ -127,8 +127,8 @@ let handleSubmit = function(event) {
   event.preventDefault();
   document.getElementById('footerRow').remove();
   let name = event.target.location.value;
-  let max = parseInt(event.target.max.value);
   let min = parseInt(event.target.avg.value);
+  let max = parseInt(event.target.max.value);
   let avg = parseInt(event.target.avg.value);
   let newStore = new Store(name, min, max, avg);
   newStore.getCookieNumbers();
