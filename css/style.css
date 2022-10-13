@@ -81,3 +81,32 @@ table,
   h2 {
     text-align: center;
   }
+
+  label, input, textarea {
+    display:block;
+    
+  }
+
+  form {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  fieldset {
+    border: 1px black;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  input [type="text"]:focus {
+    border-color: black;
+  }
+
+  body {
+    background-color: rgb(217, 217, 217);
+  }
+
+div {
+
+}
