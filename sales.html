@@ -19,7 +19,8 @@
       </ul>
     </nav>
   </header>
-  
+  <aside>
+
     <!-- <h1>Pat's Salmon Cookies</h1> -->
   
   <main>
@@ -29,11 +30,30 @@
   <table id="tableData"></table>
 
 
-  <!-- <section id="seattleList"></section>
-  <section id="tokyoList"></section>
-  <section id="dubaiList"></section>
-  <section id="parisList"></section>
-  <section id="limaList"></section> -->
+  <aside>
+
+    <form id="chat-form">
+      <fieldset>
+        <legend>New Location</legend>
+
+        <label for="location">Location: </label>
+        <input name="location" type="text" />
+
+        <label for="max">Max Customers Per Hour: </label>
+        <input name="max" type="number" size="50" />
+
+        <label for="min">Min Customers Per Hour: </label>
+         <input name="min" type="number" size="50" />
+
+         <label for="avg"> Average Cookies Per Customer: </label>
+         <input name="avg" type="number" size="50" />
+
+
+        <button id="add-location" type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+  </aside>
   <script src="app.js" text="text/javascript"></script>
   
 </body>
