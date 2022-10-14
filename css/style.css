@@ -110,3 +110,11 @@ table,
 div {
 
 }
+
+footer i {
+  font-size: 3rem;
+}
+
+footer i:hover {
+  color:blueviolet;
+}
