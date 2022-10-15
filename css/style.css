@@ -33,7 +33,9 @@ a {
   color: gainsboro;
 }
 
-
+body {
+  background-color: aqua;
+}
 main {
   /* background-color: slategray; */
   width: 960px;
@@ -52,7 +54,26 @@ main article {
   width: 450px;
 }
 
+article section {
+  font-family: 'Lora', serif;
+}
+article h3 {
+  font-family: 'Roboto', sans-serif;
+  color:red;
+}
+table {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+}
+main h2 {
+  font-family: 'Open Sans', sans-serif;
+  color:red
+}
 
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color:red
+}
 main article section {
   overflow: auto;
   height: 320px;
@@ -61,7 +82,13 @@ main article section {
 
 footer {
   background-color: lightgrey;
-  height: 50px;
+  height: 75px;
+  margin-bottom: 0;
+}
+
+footer img {
+margin-left: 88%;
+padding-top: 0.1rem;
 }
 
 div {
@@ -104,17 +131,15 @@ table,
   }
 
   body {
-    background-color: rgb(217, 217, 217);
+    background-color:bisque;
   }
 
-div {
 
-}
 
-footer i {
+/* footer i {
   font-size: 3rem;
-}
+} */
 
-footer i:hover {
+/* footer i:hover {
   color:blueviolet;
-}
+} */
